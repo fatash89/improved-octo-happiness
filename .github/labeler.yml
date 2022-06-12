@@ -1,0 +1,18 @@
+# Configuration for pull request labeler: https://github.com/actions/labeler
+Frontend:
+- src/api/**/*
+
+Backend:
+- src/backend/**/*
+
+"Documentation :book:":
+- docs/**/*
+
+"Test Suite / CI :syringe:":
+- .circleci/**/*
+- .github/**/*
+- .obs/**/*
+- .rubocop.yml
+- .rubocop_todo.yml
+- src/api/.rubocop.yml
+- src/api/.rubocop_todo.yml
